@@ -136,7 +136,7 @@ $b=3;
 $suma=$a+$b;
 $resta=$a-$b;
 $multi=$a*$b;
-$divi= round($a/$b);
+$divi= floor($a/$b);
 $resto=$a%$b;
 echo "<p>La suma de $a + $b es $suma <br> </p>";
 echo "<p>La resta de $a - $b es $resta <br> </p>";
